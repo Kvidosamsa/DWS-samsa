@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ukol s buttonama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="a07f45a23bbb9bcca7cc010065b9bafd.jpg">
+    <h1>ukol č1 č2 č3</h1> 
+
+    <button id="alertButton">Klikni na mě pro alert</button>
+    <button id="changeTextButton">Změň mě</button>
+    <p id="textChange">Toto je text, který změníme.</p>
+    <button id="changeDynamicTextButton">Změň text</button>
+    <button id="writeTextButton">Napiš něco</button>
+    <p id="outputText"></p>
+    <input type="text" id="nameInput" placeholder="Zadej jméno">
+    <button id="greetButton">Pozdrav</button>
+    <button id="showTimeButton">Zobraz aktuální čas</button>
+    <p id="timeOutput"></p>
+    <button id="showDateButton">Zobraz aktuální datum</button>
+    <p id="dateOutput"></p>
+    <input type="number" id="input1" placeholder="Zadej cislo">
+    <button onclick="addThree()">Přicti 3</button>
+    <p id="result1"></p>
+    <input type="number" id="input2" placeholder="Prvni cislo">
+    <input type="number" id="input3" placeholder="Druhe cislo">
+    <button onclick="sumNumbers()">Secti</button>
+    <p id="result2"></p>
+    <p>najeď na opicu a zvětší se</p>
+    <img src="Opice.jpg" alt="Obrázek" id="zoomImage">
+    <p>Přidej nový úkol:</p>
+    <input type="text" id="taskInput">
+    <button id="addTaskButton">Přidat</button>
+    <p>Úkoly:</p>
+    <div id="tasks"></div>
+    <script src="script.js"></script>
+</body>
+</html>
